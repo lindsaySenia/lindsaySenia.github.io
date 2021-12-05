@@ -77,8 +77,13 @@ aside p {
 }
 
 div {
+    display: flex;
     position: relative;
-    padding-bottom: 56.25%;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: right;
+    /* justify-content: center; */
+    /* padding-bottom: 56.25%; */
 }
 
 /* iframe {

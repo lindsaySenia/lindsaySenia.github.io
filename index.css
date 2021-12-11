@@ -81,14 +81,12 @@ div {
     position: relative;
     padding-top: 40px;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     /* justify-content: center; */
     /* padding-bottom: 56.25%; */
 }
 
-/* iframe {
-    position: absolute;
-    top: 0;
-    width: 0;
-    width: 66%;
-} */
+iframe {
+    min-width: 50vw;
+
+}
